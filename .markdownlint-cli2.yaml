@@ -1,0 +1,11 @@
+# MarkdownLint CLI2 configuration
+config:
+  .markdownlint.yml
+customRules:
+  - my-rules/
+fix: true
+outputFormatters:
+  - json
+ignorePatterns:
+  - node_modules/
+  - dist/

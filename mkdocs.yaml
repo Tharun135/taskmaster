@@ -1,0 +1,25 @@
+# Project information
+site_name: TaskMaster CLI Documentation
+site_description: Documentation for the TaskMaster command-line tool
+site_author: Your Name
+repo_url: https://github.com/your-username/taskmaster-cli-docs
+
+# Site configuration
+theme:
+  name: material  # You can change this to other themes like 'readthedocs' if preferred
+
+# Define the structure of your documentation
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Examples: examples.md
+  - Commands:
+      - Create Task: commands/create-task.md
+      - List Tasks: commands/list-tasks.md
+      - Delete Task: commands/delete-task.md
+
+# Optional: Enable features like search
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/taskmaster-cli-docs

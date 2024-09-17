@@ -1,0 +1,23 @@
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Poetry virtual environment folder
+.env
+.venv
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore MkDocs build folder
+site/
+
+# Ignore lock files
+poetry.lock
+
+# Ignore VS Code settings folder
+.vscode/

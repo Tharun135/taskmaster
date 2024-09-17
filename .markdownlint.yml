@@ -1,0 +1,13 @@
+# MarkdownLint configuration file
+default: true
+
+MD013:  # Line length
+  line_length: 120
+MD033:  # Allow inline HTML
+  allowed_elements:
+    - br
+    - img
+    - a
+MD041: false  # Allow files without H1 heading
+MD029:  # Ordered list item prefix
+  style: ordered

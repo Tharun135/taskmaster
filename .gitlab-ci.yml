@@ -1,0 +1,18 @@
+# GitLab CI configuration for MkDocs deployment
+
+image: python:3.9
+
+before_script:
+  - pip install mkdocs
+
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - mkdocs build
+    - echo "MkDocs site built!"
+  artifacts:
+    paths:
+      - site
